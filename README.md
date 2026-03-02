@@ -25,8 +25,8 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 ### Create DB Diagram and insert rows per table 
 
 ![image](lab01.png)
-![image](1_employee.png)
-![image](2_department.png)
+![image](1 employee.png)
+![image](2department.png)
 ![image](3_locations.png)
 ![image](4_Works_on.png)
 ![image](5_dependent.png)
@@ -35,7 +35,7 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 
 
 ### Restore Company DB then Try to create the Queries 
-![image](lab1.png)
+## ![image](lab1.png)
 
 
 ---
