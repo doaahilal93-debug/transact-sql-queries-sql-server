@@ -23,6 +23,8 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 ## Lab01_DB Creation
 
 ### Create DB Diagram and insert rows per table 
+
+![image](lab01.png)
 ![image](1 employee.png)
 ![image](2 department.png)
 ![image](3 locations.png)
@@ -33,13 +35,36 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 
 
 ### Restore Company DB then Try to create the Queries 
+![image](lab1.png)
 
 
+---
 
 
+## Lab02_Joins
+
+![image](lab02.png)
 
 
+---
 
+
+## Lab03_Grouping
+
+![image](lab03.png)
+
+
+---
+
+
+## Lab04_T-SQL
+
+![image](lab04.png)
+
+![image](lab4.png)
+
+
+---
 
 
 
