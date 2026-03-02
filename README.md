@@ -1,17 +1,11 @@
-# Transact-SQL Queries using SQL Server
+# SQL Server – Transact-SQL 
 
-## 📌 Project Overview
+## 📌 Overview
+This repository contains practical SQL labs implemented using Microsoft SQL Server.
 
-This project contains practical SQL labs implemented using Microsoft SQL Server.
+The project demonstrates database design, data manipulation, and analytical querying using Transact-SQL (T-SQL).
 
-I worked on:
-- Database creation and table relationships
-- Writing complex SELECT queries
-- Performing JOIN operations
-- Using GROUP BY and aggregate functions
-- Implementing advanced T-SQL queries
-
-All queries were written and tested using SSMS.
+All queries were written and tested using SQL Server Management Studio (SSMS).
 
 ---
 
@@ -27,74 +21,94 @@ All queries were written and tested using SSMS.
 - ITI Database
 - AdventureWorks Database
 
-
 ---
 
+# 🧩 Lab01 – Database Creation
 
-# 🧩 Lab01 - Database Creation
-![Lab01 Queries](lab01.png)
+In this lab, I:
+- Created database schema
+- Designed table relationships
+- Built ER diagram
+- Inserted sample data
 
 ### Database Diagram
-![Database Diagram](diagram.png)
+<img src="diagram.png" width="700">
 
-### Employee Table
-![Employee](1employee.png)
-
-### Department Table
-![Department](2department.png)
-
-### Locations Table
-![Locations](3locations.png)
-
-### Works On Table
-![Works On](4Works_on.png)
-
-### Dependent Table
-![Dependent](5dependent.png)
-
-### Project Table
-![Project](6project.png)
-
-# Lab01 Queries
-
-![image](s01.png)
-![image](s1.png)
-
+> Full implementation available in `Lab01_DB_Creation.sql`
 
 ---
 
-# 🔗 Lab02 - Joins
+# 🔗 Lab02 – Joins
 
-![image](s002.png)
-![image](s02.png)
-![image](s2.png)
+In this lab, I implemented different JOIN operations to retrieve related data from multiple tables.
 
+### Example Query:
 
----
+```sql
+SELECT e.Fname, e.Lname, d.Dname
+FROM Employee e
+JOIN Department d
+ON e.Dno = d.Dnumber;
+```
 
-# 📊 Lab03 - Grouping & Aggregation
-
-![image](s003.png)
-![image](s03.png)
-![image](s3.png)
-
-
+> Full solutions available in `Lab02_Joins.sql`
 
 ---
 
-# ⚙ Lab04 - Advanced T-SQL
+# 📊 Lab03 – Grouping & Aggregation
 
-![image](i004.png)
-![image](i04.png)
-![image](i4.png)
+This lab covers:
+- COUNT, SUM, AVG
+- GROUP BY
+- HAVING clause
+- Aggregated analysis per department
+
+### Example Query:
+
+```sql
+SELECT Dno, COUNT(*) AS Employee_Count
+FROM Employee
+GROUP BY Dno;
+```
+
+> Full solutions available in `Lab03_Grouping.sql`
 
 ---
 
-![image](a004.png)
-![image](a04.png)
-![image](a4.png)
+# ⚙ Lab04 – Advanced T-SQL
 
+This lab includes:
+- Subqueries
+- Calculated columns
+- Conditional filtering
+- Advanced data manipulation queries
 
+### Example Query:
 
+```sql
+SELECT Fname + ' ' + Lname AS Full_Name,
+       Salary * 12 AS Annual_Salary
+FROM Employee
+WHERE Salary > 1000;
+```
 
+> Full solutions available in `Lab04_TSQL.sql`
 
+---
+
+## 🚀 Skills Demonstrated
+
+- Writing complex SELECT queries
+- Performing multi-table JOIN operations
+- Using GROUP BY and aggregate functions
+- Implementing calculated columns
+- Working with relational database schemas
+- Writing structured and readable SQL code
+
+---
+
+## 📈 Future Improvements
+- Implement window functions
+- Add ranking queries
+- Create small analytical reporting queries
+- Connect SQL results to Power BI dashboard
