@@ -88,6 +88,7 @@ All queries were written and tested using SSMS.
 ![image](i04.png)
 ![image](i4.png)
 
+--
 
 ![image](a004.png)
 ![image](a04.png)
