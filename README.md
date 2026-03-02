@@ -24,13 +24,13 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 
 ### Create DB Diagram and insert rows per table 
 
-![image](lab01.png)
-![image](1 employee.png)
+####![image](lab01.png)
+![image](1employee.png)
 ![image](2department.png)
-![image](3_locations.png)
-![image](4_Works_on.png)
-![image](5_dependent.png)
-![image](6_project.png)
+![image](3locations.png)
+![image](4Works_on.png)
+![image](5dependent.png)
+![image](6project.png)
 ![image](diagram.png)
 
 
