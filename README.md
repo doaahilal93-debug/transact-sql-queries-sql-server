@@ -1,8 +1,17 @@
 # Transact-SQL Queries using SQL Server
 
 ## 📌 Project Overview
-This repository contains SQL labs and practice queries implemented using Microsoft SQL Server.
-The project covers fundamental and advanced Transact-SQL concepts through hands-on exercises on multiple databases.
+
+This project contains practical SQL labs implemented using Microsoft SQL Server.
+
+I worked on:
+- Database creation and table relationships
+- Writing complex SELECT queries
+- Performing JOIN operations
+- Using GROUP BY and aggregate functions
+- Implementing advanced T-SQL queries
+
+All queries were written and tested using SSMS.
 
 ---
 
@@ -18,9 +27,14 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 - ITI Database
 - AdventureWorks Database
 
+
 ---
 
+
 # 🧩 Lab01 - Database Creation
+
+### Lab01 Queries
+![Lab01 Queries](lab1.png)
 
 ### Database Diagram
 ![Database Diagram](diagram.png)
@@ -43,8 +57,6 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 ### Project Table
 ![Project](6project.png)
 
-### Lab01 Queries
-![Lab01 Queries](lab1.png)
 
 ---
 
