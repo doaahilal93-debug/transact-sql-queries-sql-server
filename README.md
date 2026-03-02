@@ -1,7 +1,7 @@
 # Transact-SQL Queries using SQL Server
 
 ## 📌 Project Overview
-This repository contains SQL labs and practice queries implemented using Microsoft SQL Server.  
+This repository contains SQL labs and practice queries implemented using Microsoft SQL Server.
 The project covers fundamental and advanced Transact-SQL concepts through hands-on exercises on multiple databases.
 
 ---
@@ -20,59 +20,47 @@ The project covers fundamental and advanced Transact-SQL concepts through hands-
 
 ---
 
-## Lab01_DB Creation
+# 🧩 Lab01 - Database Creation
 
-### Create DB Diagram and insert rows per table 
+### Database Diagram
+![Database Diagram](diagram.png)
 
-![image](lab01.png)
-#### Employee
-![image](1employee.png)
-#### Department
-![image](2department.png)
-#### Locations
-![image](3locations.png)
-#### Works_on
-![image](4Works_on.png)
-#### Dependent
-![image](5dependent.png)
-#### Project
-![image](6project.png)
-#### Diagram
-![image](diagram.png)
+### Employee Table
+![Employee](1employee.png)
 
+### Department Table
+![Department](2department.png)
 
-### Restore Company DB then Try to create the Queries 
-## ![image](lab1.png)
+### Locations Table
+![Locations](3locations.png)
 
+### Works On Table
+![Works On](4Works_on.png)
 
----
+### Dependent Table
+![Dependent](5dependent.png)
 
+### Project Table
+![Project](6project.png)
 
-## Lab02_Joins
-
-![image](lab02.png)
-
+### Lab01 Queries
+![Lab01 Queries](lab1.png)
 
 ---
 
-
-## Lab03_Grouping
-
-![image](lab03.png)
-
+# 🔗 Lab02 - Joins
+![Lab02](lab02.png)
 
 ---
 
-
-## Lab04_T-SQL
-
-![image](lab04.png)
-
-![image](lab4.png)
-
+# 📊 Lab03 - Grouping & Aggregation
+![Lab03](lab03.png)
 
 ---
 
+# ⚙ Lab04 - Advanced T-SQL
+![Lab04](lab04.png)
+![Lab04-Extra](lab4.png)
 
 
 
